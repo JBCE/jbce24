@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="x-icon" href="images/profile.jpg">
+	<meta charset="utf-8">
+	<title> Login Page </title>  
+	<link rel="stylesheet" href="style.css">
+	<SCRIPT LANGUAGE="JavaScript">
+	function Login()
+	{
+		loggedin=false;
+		username="";
+		password="";
+	
+	var username=document.getElementById("username").value;
+	var password=document.getElementById("password").value;
+
+	if(username=="jbcharelle" && password=="123456")
+		{
+		loggedin=true;
+		window.location ="index.html";
+		}
+	}
+
+	</script>
+
+</head>
+<body class="loginform" > <center><br><br>
+
+	</center>
+	<br><br><br>
+	<center>
+    <form class="box" action="Login.html" method="">  
+        <div class="borderin"> <br>
+			<h1>LOGIN</h1>
+            <input type="text"  placeholder="Enter Username / Email" name="username" id="username" required> 
+            <input type="password"  placeholder="Enter Password" name="password" id="password" required>
+            <input type="checkbox" checked="checked"> Remember me </input>
+			<input type="button" name="" value="Login" onClick="Login()"/>			
+            <a href="#" style="color: white;"> Forgot password? </a><br><br>
+			<button type="button" style="color: white; background-color: #4267B2;">Sign In with Facebook</button><br><br>
+			<button type="button"style="color: white; background-color: red;">Sign In with Google</button> <br><br>
+			
+        </div>   
+    </form>  
+	<br>
+	<a href="SIGNUP.html">SIGNUP</a>  &nbsp; &nbsp;
+</center>
+</body>
+</html>

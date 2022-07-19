@@ -1,0 +1,503 @@
+	/* This part below represent all same code of all part code in html */
+	*{
+	margin: 0;
+	padding: 0;
+}
+	a{
+		color: white;
+		font-size: 20px;
+	}
+		p{
+		color: white;
+	}
+		iframe .index{
+		margin: 10px;
+		border: 10px solid #8b0000;
+	}
+	/* This part below represent the index part of html code */
+	body.wer{
+		background-color: black;
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+           background-size: cover; 
+			}
+			
+	.position{
+		width:99%; 
+		height:600px; 
+		border: 10px solid black; 
+		background-image: url('images/coverphotos.JPG'); 
+		background-repeat: no-repeat;
+		background-size: cover; 
+		}	
+	.profile{
+		width:250px;
+		height:300px; 
+		border-radius: 40%; 
+		border: 7px solid black;
+	}
+	
+
+	
+	h1.head1{
+		color: white;
+		font-size: 45px;
+		
+	}
+	h2.b{
+		color: white;
+		font-size: 20px;
+
+	}
+
+	ul.paper{
+		color: white;
+	}
+	h2.c{
+		font-family: Times New Roman;
+		color: white;
+	}
+	ol.type{
+		color:white;
+	}
+	iframe.index{
+		border: 5px solid darkred;
+		position: absolute;
+		top:780px;
+		right: 60px;	
+	}
+	#positionindextxt{
+		position: relative;
+	top: -570px;;
+	left: 40px;
+	}
+	#positionindextxt2{
+	position: relative;
+	top: -565px;;
+	left: 70px;
+	}
+	#positionindextxt3{
+		position: relative;
+	top: -560px;;
+	left: 40px;
+	}
+	#positionindextxt4{
+	position: relative;
+	top: -555px;;
+	left: 70px;
+	}
+	
+	/* This part below represent the artpage part of html code */
+
+	body.you{
+		background-color: black;
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+        background-size: cover; 
+	}
+	header{
+                background: #1c1745;
+                color:black;
+                padding-top:10px;
+                min-height:50px;
+                border:#F0FFFF 5px solid;
+            }
+            header a{
+                color:black;
+                text-decoration:none;
+                text-transform:uppercase;
+                font-size:15px;
+            }
+            .g{
+               float:right;
+               display:inline;
+               padding:0 10px 10px 0; 
+            }
+            header #branding{
+                float:left;
+            }
+            header #branding h1{
+                margin:0px
+            }
+            header #branding{
+                color:white;
+                font-weight:bold;
+            }
+            header hover{
+                color:#CD7F32;
+                font-weight:bold;
+            }
+	.gallery{
+		font-family: arial;
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: none;
+	}
+	.g{
+		float: right;
+	}
+	.g a{
+		display:block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	 .g a:hover{
+		background-color: #000000;
+	}
+
+.slideshow{
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 700px;
+  perspective: 1000px;
+}
+.content{
+  margin: auto;
+  width: 150px;
+  perspective: 1000px;
+  position:relative;
+  padding-top: 80px;
+  transform-style: preserve-3d;
+}
+.slider-content{
+  width: 100%;
+  position:absolute;
+  float:right;
+  animation: rotate 15s infinite linear;
+  transform-style: preserve-3d;
+}
+.slider-content:hover{
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+.slider-content figure{
+  width:150px;
+  height:220px;
+  border:1px solid #555;
+  overflow:hidden;
+  position:absolute;
+}
+.slider-content figure:nth-child(1){
+  transform:rotateY(0deg) translateZ(300px);
+}
+
+.slider-content figure:nth-child(2){
+  transform:rotateY(40deg) translateZ(300px);
+}
+.slider-content figure:nth-child(3){
+  transform:rotateY(80deg) translateZ(300px);
+}
+.slider-content figure:nth-child(4){
+  transform:rotateY(120deg) translateZ(300px);
+}
+.slider-content figure:nth-child(5){
+  transform:rotateY(160deg) translateZ(300px);
+}
+.slider-content figure:nth-child(6){
+  transform:rotateY(200deg) translateZ(300px);
+}
+.slider-content figure:nth-child(7){
+  transform:rotateY(240deg) translateZ(300px);
+}
+.slider-content figure:nth-child(8){
+  transform:rotateY(280deg) translateZ(300px);
+}
+.slider-content figure:nth-child(9){
+  transform:rotateY(320deg) translateZ(300px);
+}
+
+.shadow{
+  position: absolute;
+  box-shadow: 0px 0px 0px #000;
+ 
+}
+.slider-content img{
+  image-rendering: auto;
+  transition: all 300ms;
+  width: 100%;
+  height: 100%;
+}
+.slider-content img:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+ 
+}
+
+@keyframes rotate {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+}
+	
+	.shadow {
+  -webkit-box-reflect: below  0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+	.rt-heading{
+	color: white;
+}
+	#branding{
+  -webkit-box-reflect: below -15px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+	.g a{
+  -webkit-box-reflect: below  -33px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+/* This part below represent the contact info of html code */
+	body.errr{
+		background-color:  black; <!-- "this image represent the background photo of the pages" -->
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+        background-size: cover; 
+		}
+	h4.fb{
+		color: #29487d;
+	}
+	h4.tiktok{
+		 color: red;
+	}
+	h4.yt{
+		color: red;
+	}
+	
+/* This part below represent the login form of html code */
+	body.loginform{
+		background-image: url('images/MRPANDA.jpg'); <!-- "this image represent the background photo of the pages" -->
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+        background-size: cover; 
+	}  
+ 
+	div.borderin{   
+			border: 3px solid gray; 
+		background-image: url('images/cute.jpeg');
+		background-repeat: no-repeat;
+		width:650px; 
+		height:500px;
+		color: white;
+		}   
+
+	.box input[type="text"],.box input[type="password"]
+	{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #fafafa;
+		padding:14px 10px;
+		width:270px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+	}
+
+	.box input[type="text"]:focus,.box input[type="password"]:focus{
+		width:270px;
+		border-color: #ffc400ec;
+	}
+	.box input[type="button"]{
+		
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #000000;
+		padding:14px 45px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+		cursor:pointer;
+		
+	}
+	.box input[type="button"]:hover{
+		background: red;
+	} 
+
+/* This part below represent the Signup form of html code */
+	        body.sign{
+			background-image: url('images/MRPANDA.jpg'); <!-- "this image represent the background photo of the pages" -->
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+            background-size: cover; 
+			}  
+ 
+		div.back {   
+
+			border: 3px solid gray;  
+			background-image: url('images/jbackground.jfif');
+			background-repeat: no-repeat;
+			background-attachment: fixed;	
+			background-size: cover;
+			width:750px; 
+			height:950px;
+			color: white;
+		}   
+
+	.xb input[type="text"],.xb input[type="password"]
+	{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #fafafa;
+		padding:14px 10px;
+		width:270px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+	}
+
+	.xb input[type="text"]:focus,.box input[type="password"]:focus{
+		width:270px;
+		border-color: #ffc400ec;
+	}
+	.xb input[type="button"]{
+		
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border:3px solid #000000;
+		padding:14px 45px;
+		outline: none;
+		color: white;
+		border-radius: 24px;
+		transition:0.25px;
+		cursor:pointer;
+		
+	}
+	.xb input[type="button"]:hover{
+		background: red;
+	} 
+	button.signinfb{
+		color: white; 
+		background-color: #4267B2;
+	}
+	button.signingoogle {
+		 color: white;
+		 background-color: red;
+	}
+	
+/* This part below represent the black of html code */
+	body.me{
+		background-color: black;
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+           background-size: cover; 
+			}
+footer{
+	background-color: #lalala;
+	bottom: 0;
+	width: 100%;
+	pading: 3px;
+	position: fixed;
+}
+h2.blacknwhite{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: lighter;
+}
+#blackdrawing{
+	height: 340px;
+	padding: 50px;
+}
+
+/* This part below represent the colored of html code */
+	body.colors{
+		background-color: black;
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+           background-size: cover; 
+			}
+footer{
+	background-color: #lalala;
+	bottom: 0;
+	width: 100%;
+	pading: 3px;
+	position: fixed;
+}
+h2.colored{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: lighter;
+}
+#colordrawing{
+	height: 340px;
+	padding: 50px;
+}
+
+/*css images slider index htmlcode*/
+
+
+[type=radio] {
+	display: none;
+}
+
+#slider{
+	height: 35vw;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+#slider label{
+	margin: auto;
+	width: 20%;
+	height: 80%;
+	border-radius: 4px;
+	position: absolute;
+	left: 60%;
+	right: 0%;
+	cursor: pointer;
+	transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3{
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+	transform: translate3d(-30%,0,-200px);
+}
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4{
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+	transform: translate3d(-15%,0,-100px);
+}
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5{
+	box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+	transform: translate3d(0,0,0);
+}
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1{
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+	transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2{
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+	transform: translate3d(30%,0,-200px);
+}
+section label{
+  -webkit-box-reflect: below  -33px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+/*css images slider index htmlcode end*/
